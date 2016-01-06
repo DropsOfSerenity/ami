@@ -1,13 +1,9 @@
-@import 'vendor/0-dir';
 $primary: #034B81 !global;
 $secondary: #EB7E04 !global;
 
-@import 'modules/0-dir';
-@import 'layouts/0-dir';
-
-@import 'vendor/0-dir';
-@import 'modules/0-dir';
-@import 'layouts/0-dir';
+@import 'vendor/_0-dir';
+@import 'modules/_0-dir';
+@import 'layouts/_0-dir';
 
 body {
 	font-family: 'Roboto', sans-serif;
