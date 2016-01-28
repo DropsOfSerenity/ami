@@ -1,7 +1,7 @@
 .hero {
 	text-align: center;
 	@media (min-width: 640px) {
-		padding: 45px 0;
+		padding: 12px 0;
 	}
 }
 
@@ -27,13 +27,22 @@
 	ul {
 		color: #666;
 		list-style-type: none;
-		margin: 0;
-		text-align: left;
+		margin: 0 0 0 15px 0;
+		text-align: center;
+		padding:0;
 		li {
 			margin-bottom: 8px;
 			&:last-of-type {
 				margin-bottom: none;
 			}
+		}
+	}
+	@media (max-width:990px) {
+		img {
+			max-width: 64px;
+		}
+		ul {
+			margin-bottom: 45px;
 		}
 	}
 }
@@ -49,10 +58,18 @@
 	.row {
 		margin: 25px 0;
 	}
+	@media (max-width:990px) {
+		h3, p {
+			max-width: 420px;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+	}
 	@media (min-width: 640px) {
 		padding: 12px 0;
 		.row {
-			margin: 85px 0;
+			margin: 50px 0;
 		}
 	} 
 }
