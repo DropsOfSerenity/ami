@@ -1,5 +1,10 @@
 .hero {
 	text-align: center;
+	h2 {
+		font-size: 18px;
+		font-weight: bold;
+		color: $secondary;
+	}
 	@media (min-width: 640px) {
 		padding: 12px 0;
 	}
