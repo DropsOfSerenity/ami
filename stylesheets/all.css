@@ -3328,112 +3328,117 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 /* line 1, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
 .hero {
   text-align: center; }
+  /* line 3, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  .hero h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #EB7E04; }
   @media (min-width: 640px) {
     /* line 1, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .hero {
       padding: 12px 0; } }
 
-/* line 8, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+/* line 13, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
 .l-bullets {
   text-align: center; }
-  /* line 10, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 15, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-bullets .container {
     max-width: 1200px; }
-  /* line 13, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 18, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-bullets img {
     max-width: 128px;
     opacity: 0.3;
     margin: 0 auto 25px auto; }
-  /* line 18, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 23, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-bullets h5 {
     font-size: 24px;
     font-weight: bold;
     color: #034B81;
     margin-bottom: 15px; }
-    /* line 23, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+    /* line 28, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .l-bullets h5.title {
       color: #EB7E04; }
-  /* line 27, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 32, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-bullets ul {
     color: #666;
     list-style-type: none;
     margin: 0 0 0 15px 0;
     text-align: center;
     padding: 0; }
-    /* line 33, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+    /* line 38, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .l-bullets ul li {
       margin-bottom: 8px; }
-      /* line 35, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+      /* line 40, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
       .l-bullets ul li:last-of-type {
         margin-bottom: none; }
   @media (max-width: 990px) {
-    /* line 41, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+    /* line 46, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .l-bullets img {
       max-width: 64px; }
-    /* line 44, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+    /* line 49, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .l-bullets ul {
       margin-bottom: 45px; } }
 
-/* line 50, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+/* line 55, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
 .l-steps {
   padding: 10px 0; }
-  /* line 52, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 57, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-steps img {
     border-radius: 3px;
     margin: 0 auto;
     display: block;
     box-shadow: 0 0 0 4px #fff, 0 0 0 5px #ddd; }
-  /* line 58, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 63, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-steps .row {
     margin: 25px 0; }
   @media (max-width: 990px) {
-    /* line 62, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+    /* line 67, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .l-steps h3, .l-steps p {
       max-width: 420px;
       margin-left: auto;
       margin-right: auto;
       display: block; } }
   @media (min-width: 640px) {
-    /* line 50, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+    /* line 55, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .l-steps {
       padding: 12px 0; }
-      /* line 71, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+      /* line 76, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
       .l-steps .row {
         margin: 50px 0; } }
 
-/* line 77, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+/* line 82, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
 .l-cta {
   padding: 25px 0;
   text-align: center; }
-  /* line 80, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 85, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-cta h3 {
     margin-bottom: 15px; }
-  /* line 83, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 88, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-cta h4 {
     color: #EB7E04;
     font-size: 22px;
     font-weight: bold; }
-  /* line 88, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 93, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-cta p.address {
     border-top: 1px dashed #ddd;
     margin-top: 25px;
     padding-top: 25px;
     color: #777; }
-  /* line 94, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 99, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-cta form {
     max-width: 320px;
     margin: 35px auto;
     display: block; }
-  /* line 99, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 104, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-cta input[type="email"] {
     line-height: 24px;
     padding: 5px;
     border: 1px solid #bbb;
     margin: 0 0 25px 0; }
-    /* line 104, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+    /* line 109, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .l-cta input[type="email"]:active {
       border-color: #555; }
-  /* line 108, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+  /* line 113, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
   .l-cta input[type="submit"] {
     display: block;
     text-align: center;
@@ -3447,11 +3452,11 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     transition: all 0.2s ease-out;
     text-transform: uppercase;
     letter-spacing: 0.1em; }
-    /* line 121, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+    /* line 126, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .l-cta input[type="submit"]:hover {
       background-color: #404040; }
   @media (min-width: 640px) {
-    /* line 77, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
+    /* line 82, /Users/chief/work/ami/source/stylesheets/layouts/_home.scss */
     .l-cta {
       padding: 45px 0; } }
 
